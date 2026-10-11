@@ -1,7 +1,7 @@
 {
-  "name": "kickstart",
+  "name": "typo3-cms",
   "description": {
-    "en": "My kickstart module"
+    "en": "My TYPO3 CMS module"
   },
   "categories": [],
   "authors": [
@@ -11,9 +11,9 @@
     }
   ],
   "docs": {
-    "documentation_url": "https://docs.kickstart.com/",
-    "bug_url": "https://github.com/NethServer/dev",
-    "code_url": "https://github.com/author/ns8-kickstart"
+    "documentation_url": "https://docs.typo3.org/",
+    "bug_url": "https://github.com/phillopp/ns8-typo3-cms",
+    "code_url": "https://github.com/phillopp/ns8-typo3-cms"
   },
-  "source": "ghcr.io/nethserver/kickstart"
+  "source": "ghcr.io/phillopp/typo3-cms"
 }

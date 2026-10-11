@@ -7,5 +7,5 @@
 
 set -e
 
-echo "Dumping kickstart postgres database"
-podman exec postgresql-app pg_dump -U postgres --format=c  kickstart > kickstart.pg_dump
+echo "Dumping TYPO3 CMS postgres database"
+podman exec postgresql-app pg_dump -U postgres --format=c  typo3_cms > typo3_cms.pg_dump
